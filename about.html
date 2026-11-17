@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About | Juniper Tea (WireBoard demo)</title>
+<meta name="description" content="About Juniper Tea, a demo shop for WireBoard Analytics.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="wireboard-publisher" content="4d9da309-af69-4148-a70e-c25e952c9a93">
+<link rel="stylesheet" href="/style.css">
+<!-- wireboard tag -->
+<script type="text/javascript">
+;(function(w,i,r,e,b,oar,d){if(!w[b]){w.WireBoardNamespace=w.WireBoardNamespace||[];
+w.WireBoardNamespace.push(b);w[b]=function(){(w[b].q=w[b].q||[]).push(arguments)};
+w[b].q=w[b].q||[];oar=i.createElement(r);d=i.getElementsByTagName(r)[0];oar.async=1;
+oar.src=e;d.parentNode.insertBefore(oar,d)}}(window,document,"script","https://static.wireboard.io/wireboard.js","wireboard"));
+wireboard('newTracker', 'wb', 'pipeline-0.collector.wireboard.io', {
+    appId: 'OoziOEsD',
+    forceSecureTracker: true,
+    useCookies: false,
+    useLocalStorage: false,
+    contexts: {
+      performanceTiming: true,
+    }
+});
+window.wireboard('enableActivityTracking', 5, 10);
+var customContext=[{schema:'wb:io.wireboard/publisher',data:{publisher:'4d9da309-af69-4148-a70e-c25e952c9a93'}}]
+window.wireboard('trackPageView', null, customContext);
+</script>
+<script src="https://static.wireboard.io/events.min.js"></script>
+</head>
+<body>
+<p class="demo">Demo site for testing <a href="https://wireboard.io">WireBoard Analytics</a>. Nothing here is for sale.</p>
+<header><a class="brand" href="/">Juniper Tea</a><nav><a href="/">Home</a><a href="/teas.html">Teas</a><a href="/about.html" aria-current="page">About</a></nav></header>
+<main>
+<h1>About this site</h1>
+<p>Juniper Tea is not a real shop. This site exists so that WireBoard and the people reviewing its integrations can see real visits arrive: every page you open here shows up in the WireBoard dashboard of the demo account, live.</p>
+<p>The buttons send custom events (category <code>shop</code> or <code>engagement</code>), so the event reports have something to show too.</p>
+<p>Want this on your own site? <a href="https://wireboard.io">Try WireBoard</a>.</p>
+</main>
+<footer>
+<p>Analytics by <a href="https://wireboard.io">WireBoard</a> in cookieless mode: no cookies and no local storage, only anonymous visit statistics.</p>
+</footer>
+</body>
+</html>

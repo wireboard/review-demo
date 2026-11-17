@@ -1,0 +1,9 @@
+*{box-sizing:border-box}body{margin:0;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:#1f2a24;background:#fbfaf6}
+a{color:#2f6b4f}.demo{margin:0;padding:.5rem 1rem;text-align:center;font-size:.875rem;background:#2f6b4f;color:#fff}.demo a{color:#fff}
+header{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between;max-width:960px;margin:0 auto;padding:1.25rem 1rem}
+.brand{font-weight:700;font-size:1.25rem;text-decoration:none;color:#1f2a24}nav a{margin-left:1rem;text-decoration:none}nav a[aria-current]{font-weight:700}
+main{max-width:960px;margin:0 auto;padding:0 1rem 2rem}.hero{padding:2.5rem 0}.hero h1{font-size:2.25rem;line-height:1.2;margin:0 0 .5rem}
+.cta,button{display:inline-block;padding:.6rem 1.1rem;border:0;border-radius:.5rem;background:#2f6b4f;color:#fff;font:inherit;text-decoration:none;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem}.tea{padding:1rem;border:1px solid #e3e0d6;border-radius:.75rem;background:#fff}
+.tea h3{margin:0}.price{font-weight:700}.subscribe{margin-top:2rem;padding:1.5rem;border-radius:.75rem;background:#eef3ee}
+footer{max-width:960px;margin:0 auto;padding:1.5rem 1rem;font-size:.875rem;color:#5b6660;border-top:1px solid #e3e0d6}
